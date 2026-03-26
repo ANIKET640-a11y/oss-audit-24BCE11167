@@ -18,7 +18,7 @@ DATE_TIME=$(date)
 DISTRO=$(grep '^PRETTY_NAME=' /etc/os-release | cut -d= -f2 | tr -d '"')
 
 # License message (Linux uses GPL)
-LICENSE="Python Software Foundation (PSF)"
+LICENSE="Python Software Foundation (PSF) License"
 
 # --- Display ---
 echo "=========================================="
